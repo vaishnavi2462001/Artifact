@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-27T20:58:16 IST" name="Default suite" finished-at="2025-07-27T20:58:16 IST" duration-ms="209">
+    <groups>
+    </groups>
+    <test started-at="2025-07-27T20:58:16 IST" name="Default test" finished-at="2025-07-27T20:58:16 IST" duration-ms="209">
+      <class name="firstartifactlogs.log4j2usinglogger">
+        <test-method signature="log4jtest()[pri:0, instance:firstartifactlogs.log4j2usinglogger@740abb5]" started-at="2025-07-27T20:58:16 IST" name="log4jtest" finished-at="2025-07-27T20:58:16 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log4jtest -->
+        <test-method signature="parameterizedlog()[pri:0, instance:firstartifactlogs.log4j2usinglogger@740abb5]" started-at="2025-07-27T20:58:16 IST" name="parameterizedlog" finished-at="2025-07-27T20:58:16 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterizedlog -->
+      </class> <!-- firstartifactlogs.log4j2usinglogger -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	
+	<!--parameter name="outputDirectory" value="custom-report-folder"></parameter-->
+	
+	
+	<!--this listener tag for custom report-->
+	<listeners>
+		<listener class-name="Customtestreports.Customhtmlreport"/>
+	</listeners>
+	
+	<!--this listener tag for extend report-->
+	<listeners>
+		<listener class-name="Customtestreports.Extenthtmlreport"></listener>
+	</listeners>
+	
+	
+	<!--this listener tag for pdf report-->
+	<listeners>
+		<listener class-name="Customtestreports.pdfreport"></listener>
+	</listeners>
+	
+
+   <!--this listener tag for allure report-->
+	<listeners>
+		<listener class-name="Customtestreports.Allurereport">
+	</listener>
+		
+		
+		
+		
+	</listeners>
+	
+	
+	
+  <test thread-count="5" name="Test">
+	<classes>
+      <class name="firstartifact.test2"/>
+      <class name="firstartifact.Inheritancegroups"/>
+      <class name="firstartifact.Basetest"/>
+      <class name="firstartifact.Assertionstest"/>
+      <class name="firstartifact.Dataprovidertest"/>
+      <class name="firstartifactlogs.log4j2usinglogger"/>
+      <class name="firstartifact.FactoryTest"/>
+      <class name="firstartifact.Csvfiledataprovider"/>
+      <class name="firstartifactlogs.Basiclogs"/>
+      <class name="firstartifactlogs.Reporterlog"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- TestSuite -->

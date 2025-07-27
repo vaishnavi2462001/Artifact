@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="5" name="Test" inheritGroups="true">
+    <classes>
+      <!--class name="firstartifact.test2"/>
+      <class name="firstartifact.test"/-->
+      <class name="firstartifact.Inheritancegroups"/>
+      <!--class name="firstartifact.Basetest"/>
+      <class name="firstartifact.Assertionstest"/>
+      <class name="firstartifact.Dataprovidertest"/-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

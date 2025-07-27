@@ -1,0 +1,17 @@
+firstartifactlogs\Basiclogs.class
+Customtestreports\pdfreport.class
+Customtestreports\Extenthtmlreport.class
+firstartifact\Csvfiledataprovider.class
+firstartifact\Dataprovidertest.class
+firstartifactlogs\Reporterlog.class
+firstartifact\Basetest.class
+firstartifact\Assertionstest.class
+firstartifact\Parameterstest.class
+firstartifactlogs\log4j2usinglogger.class
+Customtestreports\Customhtmlreport.class
+firstartifact\Factoryparameter.class
+firstartifact\Inheritancegroups.class
+firstartifact\FactoryTest.class
+firstartifact\test2.class
+Customtestreports\Allurereport.class
+firstartifact\Xmldataprovider.class
