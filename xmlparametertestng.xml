@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Xml parameter suite">
+<parameter name="username" value="vaish123"></parameter>
+<parameter name="passwrd" value="@AP28k3029"></parameter>	
+<parameter name="url" value="https://example.com"></parameter>
+<parameter name="timeout" value="17"></parameter>	
+
+<test name="Xml parameter test">
+	<classes>
+		<class name="firstartifact.Xmlparameter"></class>
+	</classes>
+</test>
+</suite>

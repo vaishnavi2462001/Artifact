@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class test2 {
 
-	@Test
+	@Test(priority=7)
 	public void add3() {
 		System.out.println("this is add3 method");
 	}
@@ -23,7 +23,7 @@ public class test2 {
 		//Assert.fail();
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void add4() {
 		System.out.println("this is add4 method");
 		throw new SkipException("skipped intentionally by me");
@@ -46,4 +46,5 @@ public class test2 {
 }
 
 //if @BeforeMethod fails all test methods gets skipped
+//@prority is used to prioritize method or else method execute based on alphabetic order
 

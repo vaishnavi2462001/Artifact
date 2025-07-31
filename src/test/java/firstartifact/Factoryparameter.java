@@ -1,9 +1,11 @@
 package firstartifact;
 import org.testng.annotations.Factory;
+import org.testng.annotations.Test;
 
 public class Factoryparameter {
 
 	
+	@Test
 	@Factory
 	public Object[] createobj() {
 	return new Object[] {

@@ -1,0 +1,1 @@
+{"uuid":"e5712712-981f-4416-8026-c8a115537f8f","name":"firstartifact.test2.add2","children":["d4c34b20-e3b4-46d7-8d7c-80aee3188812"],"description":"","befores":[{"name":"add2","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1753977468630,"stop":1753977468630}],"afters":[],"start":1753977468630,"stop":1753977468630}

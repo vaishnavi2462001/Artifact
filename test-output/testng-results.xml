@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-27T20:58:16 IST" name="Default suite" finished-at="2025-07-27T20:58:16 IST" duration-ms="209">
+  <suite started-at="2025-08-01T04:57:22 IST" name="Default suite" finished-at="2025-08-01T04:57:22 IST" duration-ms="263">
     <groups>
     </groups>
-    <test started-at="2025-07-27T20:58:16 IST" name="Default test" finished-at="2025-07-27T20:58:16 IST" duration-ms="209">
-      <class name="firstartifactlogs.log4j2usinglogger">
-        <test-method signature="log4jtest()[pri:0, instance:firstartifactlogs.log4j2usinglogger@740abb5]" started-at="2025-07-27T20:58:16 IST" name="log4jtest" finished-at="2025-07-27T20:58:16 IST" duration-ms="64" status="PASS">
+    <test started-at="2025-08-01T04:57:22 IST" name="Default test" finished-at="2025-08-01T04:57:22 IST" duration-ms="263">
+      <class name="firstartifact.FactoryTest">
+        <test-method signature="testbrowser()[pri:0, instance:firstartifact.FactoryTest@352ff4da, instance params:[]]" started-at="2025-08-01T04:57:22 IST" name="testbrowser" finished-at="2025-08-01T04:57:22 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- log4jtest -->
-        <test-method signature="parameterizedlog()[pri:0, instance:firstartifactlogs.log4j2usinglogger@740abb5]" started-at="2025-07-27T20:58:16 IST" name="parameterizedlog" finished-at="2025-07-27T20:58:16 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- testbrowser -->
+        <test-method signature="testbrowser()[pri:0, instance:firstartifact.FactoryTest@4e928fbf, instance params:[]]" started-at="2025-08-01T04:57:22 IST" name="testbrowser" finished-at="2025-08-01T04:57:22 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- parameterizedlog -->
-      </class> <!-- firstartifactlogs.log4j2usinglogger -->
+        </test-method> <!-- testbrowser -->
+        <test-method signature="testbrowser()[pri:0, instance:firstartifact.FactoryTest@f627d13, instance params:[]]" started-at="2025-08-01T04:57:22 IST" name="testbrowser" finished-at="2025-08-01T04:57:22 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbrowser -->
+        <test-method signature="testspecificfeature()[pri:0, instance:firstartifact.FactoryTest@352ff4da, instance params:[]]" started-at="2025-08-01T04:57:22 IST" name="testspecificfeature" finished-at="2025-08-01T04:57:22 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testspecificfeature -->
+        <test-method signature="testspecificfeature()[pri:0, instance:firstartifact.FactoryTest@4e928fbf, instance params:[]]" started-at="2025-08-01T04:57:22 IST" name="testspecificfeature" finished-at="2025-08-01T04:57:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testspecificfeature -->
+        <test-method signature="testspecificfeature()[pri:0, instance:firstartifact.FactoryTest@f627d13, instance params:[]]" started-at="2025-08-01T04:57:22 IST" name="testspecificfeature" finished-at="2025-08-01T04:57:22 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testspecificfeature -->
+      </class> <!-- firstartifact.FactoryTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
